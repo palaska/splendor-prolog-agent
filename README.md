@@ -15,17 +15,5 @@ On every step, the agent calculates the development card priorities by checking 
 
 At the end of these 3 processes and some operations, the agent obtains a priority list of development cards at that state. This priority list is later used in the calculation of the reward by buying each development card.
 
-
-
-
-
-
-
-
-
-
-
-
-	Results vs the simple agents
-
-	The results of 100 games between the simple agent codes vs my agent algorithm is presented below images. On every image, the top score is my agent's and the bottom one is the corresponding agent.
+## Results of 100 Games vs Random agent
+![alt text](https://github.com/palaska/splendor-prolog-agent/blob/master/results.png "Results")
