@@ -4,8 +4,9 @@
 
 This is the implementation of an agent that considers and handles the states just as humans does. It checks the cards on the board, nobles, its owned coins and development cards, then takes an action.
 
+
 ##How it works
- The actions that agent takes depends on the priorities. The priorities are decided based on the current state of the board and owned development cards.
+The actions that agent takes depends on the priorities. The priorities are decided based on the current state of the board and owned development cards.
 
 On every step, the agent calculates the development card priorities by checking the nobles and its own development cards. The factors in this process are as followed;
 
@@ -15,5 +16,6 @@ On every step, the agent calculates the development card priorities by checking 
 
 At the end of these 3 processes and some operations, the agent obtains a priority list of development cards at that state. This priority list is later used in the calculation of the reward by buying each development card.
 
-## Results of 100 Games vs Random agent
+
 ![alt text](https://github.com/palaska/splendor-prolog-agent/blob/master/results.png "Results")
+<center>Results of 100 Games vs Random agent</center>
