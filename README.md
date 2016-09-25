@@ -18,4 +18,4 @@ At the end of these 3 processes and some operations, the agent obtains a priorit
 
 
 ![alt text](https://github.com/palaska/splendor-prolog-agent/blob/master/results.png "Results")
-<center>Results of 100 Games vs Random agent</center>
+<p style="text-align: center;">Results of 100 Games vs Random agent</p>
